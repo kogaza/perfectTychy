@@ -17,6 +17,7 @@ const config: GatsbyConfig = {
     siteUrl: process.env.WEBSITE_HOST,
   },
   graphqlTypegen: true,
+  pathPrefix: "/perfectTychy",
   plugins: [
     'gatsby-plugin-sitemap',
     {

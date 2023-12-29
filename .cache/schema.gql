@@ -1,4 +1,4 @@
-### Type definitions saved at 2023-12-29T14:26:42.430Z ###
+### Type definitions saved at 2023-12-29T15:42:17.301Z ###
 
 enum RemoteFileFit {
   COVER
@@ -260,8 +260,8 @@ type Site implements Node @derivedTypes @dontInfer {
   port: Int
   host: String
   graphqlTypegen: SiteGraphqlTypegen
-  polyfill: Boolean
   pathPrefix: String
+  polyfill: Boolean
   jsxRuntime: String
   trailingSlash: String
 }

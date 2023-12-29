@@ -6,4 +6,5 @@ export const footerEmailWrapperStyles = clsx`
 flex flex-col items-center gap-2`
 export const footerPhoneWrapperStyles = clsx`
 flex flex-col items-center gap-2`
-export const offerItemIconStyles = clsx`hidden md:block text-[#f16c20] text-[30px]`
+export const footerFacebookWrapperStyles = clsx`hidden md:block`
+export const offerItemIconStyles = clsx`text-[#f16c20] text-[30px]`

@@ -9967,6 +9967,7 @@ const BackToTop = () => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   footerEmailWrapperStyles: () => (/* binding */ footerEmailWrapperStyles),
+/* harmony export */   footerFacebookWrapperStyles: () => (/* binding */ footerFacebookWrapperStyles),
 /* harmony export */   footerPhoneWrapperStyles: () => (/* binding */ footerPhoneWrapperStyles),
 /* harmony export */   footerStyles: () => (/* binding */ footerStyles),
 /* harmony export */   offerItemIconStyles: () => (/* binding */ offerItemIconStyles)
@@ -9979,7 +9980,8 @@ const footerEmailWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"]
 flex flex-col items-center gap-2`;
 const footerPhoneWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`
 flex flex-col items-center gap-2`;
-const offerItemIconStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`hidden md:block text-[#f16c20] text-[30px]`;
+const footerFacebookWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`hidden md:block`;
+const offerItemIconStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[#f16c20] text-[30px]`;
 
 /***/ }),
 
@@ -10015,7 +10017,9 @@ const Footer = () => {
     className: _index_styles__WEBPACK_IMPORTED_MODULE_1__.offerItemIconStyles
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:perfecttychy@gmail.com"
-  }, "perfecttychy@gmail.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  }, "perfecttychy@gmail.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: _index_styles__WEBPACK_IMPORTED_MODULE_1__.footerFacebookWrapperStyles
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.facebook.com/perfecttychy/",
     target: "_blank"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Facebook__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -10780,7 +10784,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! clsx */ "./node_modules/clsx/dist/clsx.m.js");
 
 const pricingWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`w-full h-[600px] relative z-10 flex flex-col justify-center items-center bg-perfect-bgMainFilter`;
-const pricingBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute top-0 left-0 w-full z-0 h-[600px]`;
+const pricingBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute-important top-0 left-0 w-full z-0 h-[600px]`;
 const pricingTitleStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[30px] text-[#fff] font-bold`;
 const pricingTableStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`bg-[#e3e1f9cc] rounded-[4px] mt-8 w-[80vw] md:w-[60vw] lg:w-[50vw]`;
 const pricingTableHeadStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`
@@ -10855,7 +10859,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const promotionLogoStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`max-w-[240px] mx-auto`;
 const promotionTitleStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[30px] text-[#fff] font-bold`;
-const promotionBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute top-0 left-0 w-full z-0 h-[600px]`;
+const promotionBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute-important top-0 left-0 w-full z-0 h-[600px]`;
 const promotionWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`w-full h-[600px] relative z-10 flex flex-col justify-center items-center bg-[#00506acc]`;
 const promotionCardsWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`
 flex flex-col md:flex-row justify-between w-[70%] mt-12 md:mt-24`;
@@ -11236,7 +11240,7 @@ const mainSectionStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`bg-pe
 const heroSectionStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`w-full relative`;
 const heroWrapperStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`w-full relative z-10 flex flex-col justify-center items-center bg-perfect-bgMainFilter`;
 const heroPerfectTextImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`max-w-[1000px] my-8 mx-4 md:my-24`;
-const heroBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute top-0 w-full h-full z-0`;
+const heroBackgroundImageStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`absolute-important top-0 w-full h-full z-0`;
 const heroTitleStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[32px] px-3 md:text-[56px] text-center text-perfect-mainWhite font-bold`;
 const heroTitleEndStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[24px] md:text-[38px] text-center text-perfect-mainWhite font-bold`;
 const heroInfoTextStyles = (0,clsx__WEBPACK_IMPORTED_MODULE_0__["default"])`text-[16px] text-center text-perfect-mainWhite px-3 mt-6 md:px-16 md:mt-16 lg:max-w-[1024px] xl:max-w-[1250px] 2xl:max-w-[1500px]`;
@@ -11264,7 +11268,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
+/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
 /* harmony import */ var _components_Common_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/Common/Layout */ "./src/components/Common/Layout/index.tsx");
 /* harmony import */ var _components_Common_Seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/components/Common/Seo */ "./src/components/Common/Seo/index.tsx");
 /* harmony import */ var _components_HomePage_ReferencesSlider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/components/HomePage/ReferencesSlider */ "./src/components/HomePage/ReferencesSlider/index.tsx");
@@ -11273,6 +11277,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_HomePage_OfferSection__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/components/HomePage/OfferSection */ "./src/components/HomePage/OfferSection/index.tsx");
 /* harmony import */ var _components_Flags__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/components/Flags */ "./src/components/Flags/index.tsx");
 /* harmony import */ var _components_HomePage_PromotionsSection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/components/HomePage/PromotionsSection */ "./src/components/HomePage/PromotionsSection/index.tsx");
+/* harmony import */ var gatsby_plugin_anchor_links__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! gatsby-plugin-anchor-links */ "./node_modules/gatsby-plugin-anchor-links/index.js");
+
 
 
 
@@ -11290,7 +11296,7 @@ const IndexPage = () => {
     className: _pages_index_styles__WEBPACK_IMPORTED_MODULE_5__.heroSectionStyles
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: _pages_index_styles__WEBPACK_IMPORTED_MODULE_5__.heroWrapperStyles
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_9__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
     src: "../assets/svg/perfectText.svg",
     alt: "perfectText",
     quality: 100,
@@ -11304,7 +11310,13 @@ const IndexPage = () => {
     className: _pages_index_styles__WEBPACK_IMPORTED_MODULE_5__.heroInfoTextStyles
   }, "Czy wiesz, \u017Ce dzieli Ci\u0119 tylko kilka krok\xF3w od profesjonalnej nauki j\u0119zyka obcego? Zadzwo\u0144 lub napisz ju\u017C dzisiaj, przedstaw swoje oczekiwania, um\xF3w termin pierwszej lekcji (bez zobowi\u0105za\u0144) i oczekuj na lektora w wybranym miejscu (Tw\xF3j dom, a mo\u017Ce miejsce pracy?). Od tej chwili poczuj si\u0119 pewniej i pos\u0142uguj si\u0119 j\u0119zykiem obcym swobodniej!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: _pages_index_styles__WEBPACK_IMPORTED_MODULE_5__.heroButtonStyles
-  }, "Wykonaj pierszy krok")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_9__.StaticImage, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_anchor_links__WEBPACK_IMPORTED_MODULE_9__.AnchorLink, {
+    to: '/#contact'
+    // className={styles.navDesktopSpanTitleStyles}
+    ,
+
+    title: "Wykonaj pierszy krok"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_10__.StaticImage, {
     src: "../assets/images/london.jpg",
     alt: "london",
     quality: 100,

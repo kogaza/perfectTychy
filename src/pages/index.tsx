@@ -10,6 +10,7 @@ import * as styles from '@/pages/index.styles';
 import { OfferSection } from '@/components/HomePage/OfferSection';
 import { Flags } from '@/components/Flags';
 import { PromotionsSection } from '@/components/HomePage/PromotionsSection';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 const IndexPage: React.FC<PageProps> = () => {
 
@@ -27,7 +28,12 @@ const IndexPage: React.FC<PageProps> = () => {
             <h2 className={styles.heroTitleStyles}>Perfekcyjna nauka języków obcych</h2>
             <div className={styles.heroTitleEndStyles}>od 2008 roku</div>
             <div className={styles.heroInfoTextStyles}>Czy wiesz, że dzieli Cię tylko kilka kroków od profesjonalnej nauki języka obcego? Zadzwoń lub napisz już dzisiaj, przedstaw swoje oczekiwania, umów termin pierwszej lekcji (bez zobowiązań) i oczekuj na lektora w wybranym miejscu (Twój dom, a może miejsce pracy?). Od tej chwili poczuj się pewniej i posługuj się językiem obcym swobodniej!</div>
-            <button className={styles.heroButtonStyles}>Wykonaj pierszy krok</button>
+            <button className={styles.heroButtonStyles}>
+              <AnchorLink
+                to={'/#contact'}
+                title='Wykonaj pierszy krok'
+              />
+            </button>
           </div>
           <StaticImage
             src="../assets/images/london.jpg"

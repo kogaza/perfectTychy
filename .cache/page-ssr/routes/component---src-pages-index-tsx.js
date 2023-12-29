@@ -160,9 +160,9 @@ var PhoneIphone = __webpack_require__(5731);
 const footerStyles=(0,clsx_m/* default */.Z)`w-full
 flex flex-col md:flex-row justify-around my-6 gap-2`;const footerEmailWrapperStyles=(0,clsx_m/* default */.Z)`
 flex flex-col items-center gap-2`;const footerPhoneWrapperStyles=(0,clsx_m/* default */.Z)`
-flex flex-col items-center gap-2`;const offerItemIconStyles=(0,clsx_m/* default */.Z)`hidden md:block text-[#f16c20] text-[30px]`;
+flex flex-col items-center gap-2`;const footerFacebookWrapperStyles=(0,clsx_m/* default */.Z)`hidden md:block`;const offerItemIconStyles=(0,clsx_m/* default */.Z)`text-[#f16c20] text-[30px]`;
 ;// CONCATENATED MODULE: ./src/components/Common/Layout/Footer/index.tsx
-const Footer=()=>{return/*#__PURE__*/index_js_default().createElement("footer",{id:"contact",className:footerStyles},/*#__PURE__*/index_js_default().createElement("div",{className:footerEmailWrapperStyles},/*#__PURE__*/index_js_default().createElement(Email/* default */.Z,{className:offerItemIconStyles}),/*#__PURE__*/index_js_default().createElement("a",{href:"mailto:perfecttychy@gmail.com"},"perfecttychy@gmail.com")),/*#__PURE__*/index_js_default().createElement("div",null,/*#__PURE__*/index_js_default().createElement("a",{href:"https://www.facebook.com/perfecttychy/",target:"_blank"},/*#__PURE__*/index_js_default().createElement(Facebook/* default */.Z,{className:offerItemIconStyles}))),/*#__PURE__*/index_js_default().createElement("div",{className:footerPhoneWrapperStyles},/*#__PURE__*/index_js_default().createElement(PhoneIphone/* default */.Z,{className:offerItemIconStyles}),/*#__PURE__*/index_js_default().createElement("div",null,"508-299-701")));};
+const Footer=()=>{return/*#__PURE__*/index_js_default().createElement("footer",{id:"contact",className:footerStyles},/*#__PURE__*/index_js_default().createElement("div",{className:footerEmailWrapperStyles},/*#__PURE__*/index_js_default().createElement(Email/* default */.Z,{className:offerItemIconStyles}),/*#__PURE__*/index_js_default().createElement("a",{href:"mailto:perfecttychy@gmail.com"},"perfecttychy@gmail.com")),/*#__PURE__*/index_js_default().createElement("div",{className:footerFacebookWrapperStyles},/*#__PURE__*/index_js_default().createElement("a",{href:"https://www.facebook.com/perfecttychy/",target:"_blank"},/*#__PURE__*/index_js_default().createElement(Facebook/* default */.Z,{className:offerItemIconStyles}))),/*#__PURE__*/index_js_default().createElement("div",{className:footerPhoneWrapperStyles},/*#__PURE__*/index_js_default().createElement(PhoneIphone/* default */.Z,{className:offerItemIconStyles}),/*#__PURE__*/index_js_default().createElement("div",null,"508-299-701")));};
 ;// CONCATENATED MODULE: ./src/components/Common/Layout/Nav/mainMenu.tsx
 const mainMenu=[{title:'Oferta',to:'/#offer'},{title:'Cennik',to:'/#pricing'},{title:'Referencje',to:'/#references'},{title:'Promocje',to:'/#promotions'},{title:'Kontakt',to:'/#contact'}];
 ;// CONCATENATED MODULE: ./src/components/Common/Layout/index.tsx
@@ -281,6 +281,7 @@ const PromotionsSection=()=>{return/*#__PURE__*/index_js_default().createElement
 
 
 
+
 const IndexPage = () => {
   return /*#__PURE__*/index_js_default().createElement("main", {
     className: mainSectionStyles
@@ -302,7 +303,10 @@ const IndexPage = () => {
     className: heroInfoTextStyles
   }, "Czy wiesz, \u017Ce dzieli Ci\u0119 tylko kilka krok\xF3w od profesjonalnej nauki j\u0119zyka obcego? Zadzwo\u0144 lub napisz ju\u017C dzisiaj, przedstaw swoje oczekiwania, um\xF3w termin pierwszej lekcji (bez zobowi\u0105za\u0144) i oczekuj na lektora w wybranym miejscu (Tw\xF3j dom, a mo\u017Ce miejsce pracy?). Od tej chwili poczuj si\u0119 pewniej i pos\u0142uguj si\u0119 j\u0119zykiem obcym swobodniej!"), /*#__PURE__*/index_js_default().createElement("button", {
     className: heroButtonStyles
-  }, "Wykonaj pierszy krok")), /*#__PURE__*/index_js_default().createElement(gatsby_image_module/* StaticImage */.Jv, {
+  }, /*#__PURE__*/index_js_default().createElement(gatsby_plugin_anchor_links/* AnchorLink */.P, {
+    to: '/#contact',
+    title: "Wykonaj pierszy krok"
+  }))), /*#__PURE__*/index_js_default().createElement(gatsby_image_module/* StaticImage */.Jv, {
     src: "../assets/images/london.jpg",
     alt: "london",
     quality: 100,

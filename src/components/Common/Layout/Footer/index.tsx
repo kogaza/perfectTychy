@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
         <EmailIcon className={styles.offerItemIconStyles} />
         <a href="mailto:perfecttychy@gmail.com">perfecttychy@gmail.com</a>
       </div>
-      <div>
+      <div className={styles.footerFacebookWrapperStyles}>
         <a href="https://www.facebook.com/perfecttychy/" target="_blank">
           <FacebookIcon className={styles.offerItemIconStyles} />
         </a>

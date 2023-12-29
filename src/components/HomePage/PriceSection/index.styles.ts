@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 
 export const pricingWrapperStyles = clsx`w-full h-[600px] relative z-10 flex flex-col justify-center items-center bg-perfect-bgMainFilter`;
-export const pricingBackgroundImageStyles = clsx`absolute top-0 left-0 w-full z-0 h-[600px]`;
+export const pricingBackgroundImageStyles = clsx`absolute-important top-0 left-0 w-full z-0 h-[600px]`;
 export const pricingTitleStyles = clsx`text-[30px] text-[#fff] font-bold`;
 export const pricingTableStyles = clsx`bg-[#e3e1f9cc] rounded-[4px] mt-8 w-[80vw] md:w-[60vw] lg:w-[50vw]`;
 export const pricingTableHeadStyles = clsx`

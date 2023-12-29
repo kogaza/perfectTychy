@@ -5,7 +5,7 @@ export const mainSectionStyles = clsx`bg-perfect-bgdark font-plusJakartaSans`;
 export const heroSectionStyles = clsx`w-full relative`;
 export const heroWrapperStyles = clsx`w-full relative z-10 flex flex-col justify-center items-center bg-perfect-bgMainFilter`;
 export const heroPerfectTextImageStyles = clsx`max-w-[1000px] my-8 mx-4 md:my-24`;
-export const heroBackgroundImageStyles = clsx`absolute top-0 w-full h-full z-0`;
+export const heroBackgroundImageStyles = clsx`absolute-important top-0 w-full h-full z-0`;
 
 export const heroTitleStyles = clsx`text-[32px] px-3 md:text-[56px] text-center text-perfect-mainWhite font-bold`;
 export const heroTitleEndStyles = clsx`text-[24px] md:text-[38px] text-center text-perfect-mainWhite font-bold`;

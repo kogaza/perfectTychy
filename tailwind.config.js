@@ -42,5 +42,14 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.absolute-important': {
+          position: 'absolute !important',
+        },
+      }
+      addUtilities(newUtilities)
+    }
+  ]
 };

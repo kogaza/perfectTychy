@@ -1,0 +1,13 @@
+id: ari:cloud:compass:0c12cb64-40f3-4528-9da7-598e80f605fc:component/3727cfee-3fd7-48f3-8a96-f7fc2dac6e4f/59b7bc89-22eb-4ade-bf66-5c8a2bde2690
+name: remote-website
+description: null
+ownerId: null
+configVersion: 1
+typeId: WEBSITE
+fields:
+  tier: 4
+links: []
+labels:
+  - bitbucket-import
+  - language:typescript
+customFields: []

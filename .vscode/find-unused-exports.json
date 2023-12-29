@@ -1,0 +1,10 @@
+{
+  "ignore": {
+    "files": [
+      "/Users/krzysztofogaza/Documents/perfectTychy/gatsby-config.ts",
+      "/Users/krzysztofogaza/Documents/perfectTychy/src/pages/index.tsx",
+      "/Users/krzysztofogaza/Documents/perfectTychy/src/types/imageQuery.ts",
+      "/Users/krzysztofogaza/Documents/perfectTychy/src/models/pricingModel.ts"
+    ]
+  }
+}

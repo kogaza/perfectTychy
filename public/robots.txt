@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://perfect.tychy.pl//sitemap-index.xml
+Host: https://perfect.tychy.pl

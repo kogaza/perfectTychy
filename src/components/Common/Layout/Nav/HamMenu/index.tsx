@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 
-import { ThemeToggle } from '@/components/Common/Layout/Nav/ThemeToggle';
+// import { ThemeToggle } from '@/components/Common/Layout/Nav/ThemeToggle';
 import * as styles from '@/components/Common/Layout/layout.styles';
 
 interface IProps {

@@ -5,7 +5,7 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import { HamMenu } from '@/components/Common/Layout/Nav/HamMenu';
 import { Sidebar } from '@/components/Common/Layout/Nav/Sidebar';
 import { type IMenu } from '@/types/menu';
-import { ThemeToggle } from '@/components/Common/Layout/Nav/ThemeToggle';
+// import { ThemeToggle } from '@/components/Common/Layout/Nav/ThemeToggle';
 import * as styles from '@/components/Common/Layout/layout.styles';
 import Logo from '@/assets/images/logo.png';
 import FacebookIcon from '@mui/icons-material/Facebook';

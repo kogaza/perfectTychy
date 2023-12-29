@@ -41,17 +41,6 @@ const config: GatsbyConfig = {
         offset: -150,
       },
     },
-    'gatsby-plugin-dark-mode',
-    {
-      resolve: 'gatsby-plugin-use-dark-mode',
-      options: {
-        classNameDark: 'dark-mode',
-        classNameLight: 'light-mode',
-        storageKey: 'darkMode',
-        minify: true,
-      },
-    },
-
     {
       resolve: '@tmttn/gatsby-plugin-hubspot-tracking',
       options: {

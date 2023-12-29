@@ -7,14 +7,6 @@ var plugins = [{
       plugin: require('/Users/krzysztofogaza/Documents/perfectTychy/node_modules/gatsby-plugin-breakpoints/gatsby-ssr.js'),
       options: {"plugins":[],"queries":{"xs":"(max-width: 320px)","sm":"(max-width: 768px)","md":"(max-width: 1024px)","l":"(max-width: 1536px)"}},
     },{
-      name: 'gatsby-plugin-dark-mode',
-      plugin: require('/Users/krzysztofogaza/Documents/perfectTychy/node_modules/gatsby-plugin-dark-mode/gatsby-ssr.js'),
-      options: {"plugins":[]},
-    },{
-      name: 'gatsby-plugin-use-dark-mode',
-      plugin: require('/Users/krzysztofogaza/Documents/perfectTychy/node_modules/gatsby-plugin-use-dark-mode/gatsby-ssr.js'),
-      options: {"plugins":[],"classNameDark":"dark-mode","classNameLight":"light-mode","storageKey":"darkMode","minify":true},
-    },{
       name: '@tmttn/gatsby-plugin-hubspot-tracking',
       plugin: require('/Users/krzysztofogaza/Documents/perfectTychy/node_modules/@tmttn/gatsby-plugin-hubspot-tracking/gatsby-ssr.js'),
       options: {"plugins":[],"trackingCode":"21824221","respectDNT":false,"productionOnly":false},

@@ -15,7 +15,7 @@ interface ITogglerProps {
 }
 
 export const ThemeToggle: React.FC = () => {
-  const darkMode = useDarkMode(undefined);
+  const darkMode = useDarkMode(false);
 
   return (
     <ThemeToggler>
